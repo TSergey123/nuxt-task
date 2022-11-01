@@ -1,6 +1,6 @@
 <template>
-  <body class="page">
-    <main class="main">
+  <div class="page">
+    <div class="main">
       <div class="container">
         <article class="counter">
           <h1 class="counter__heading heading-main">Счётчик калорий</h1>
@@ -240,8 +240,8 @@
       <span>{{balancedResult}}</span>
       <span>{{slimResult}}</span>
       <span>{{gainResult}}</span>
-    </main>
-  </body>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -325,27 +325,6 @@ export default {
 </script>
 
 <style>
-/* @font-face {
-  font-style: normal;
-  font-weight: 700;
-  font-family: "PT Sans Caption";
-
-  font-display: swap;
-  src:
-    url("../fonts/pt-sans-caption-bold.woff2") format("woff2"),
-    url("../fonts/pt-sans-caption-bold.woff") format("woff");
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 400;
-  font-family: "PT Sans Caption";
-
-  font-display: swap;
-  src:
-    url("../fonts/pt-sans-caption-regular.woff2") format("woff2"),
-    url("../fonts/pt-sans-caption-regular.woff") format("woff");
-} */
 
 *,
 *::before,
